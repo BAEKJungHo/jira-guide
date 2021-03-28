@@ -47,3 +47,25 @@ __협업과 공유는 쉽게 할 수 있어야 더 많이 하게 된다.__
   - 자사 제품과 강력한 통합 지원(Confluence, Bamboo, BitBucke, Crowd 등)
   - 사용자 수에 따라 비용을 책정하므로 규모에 따라 상당한 비용 발생
   - Market Place 가 활성화 되어있어서 JIRA 에서 제공되지 않는 기능(결재, 자산관리, Test 관리)도 third party 를 통해 사용 가능
+
+## JIRA 의 구조
+
+- `Field`
+  - 이슈의 구성요소
+    - Summary
+    - Priority
+    - Issue Type
+- `Issue`
+  - 단위 업무
+    - 특정 Browser 에서 화면 깨짐 수정
+    - 검색 속도 개선
+    - 사용자 매뉴얼 작성
+- `Project`
+  - 단위 프로젝트
+    - 호텔 예약 웹
+    - 호텔 예약 iOS 앱
+    - 호텔 예약 안드로이드 앱
+- `Project Category`
+  - 논리적 프로젝트 묶음
+    - 결제 인프라
+    - 호텔 예약 서비스
